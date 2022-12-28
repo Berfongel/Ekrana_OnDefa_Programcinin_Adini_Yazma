@@ -3,7 +3,7 @@ int sayi = 1;
 string programcininAdi;
 Console.WriteLine("Adınızı yazar mısınız ? ");
 programcininAdi = Convert.ToString(Console.ReadLine());
-//aynı ismi yazacak 10 defa  sayi 10 a eşit olana kadar
+// sayi=10 olana kadar programcının adını 10 defa ekrana yazma
 while (sayi<=10) 
 {
     Console.WriteLine("Programcının Adı : " + programcininAdi);
